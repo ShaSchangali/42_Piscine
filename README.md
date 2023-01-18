@@ -1,6 +1,5 @@
-<div align="center">
 # C_Piscine
-</div>
+
 ##
 ## [C00] - Introduction to C
 - [ft_putchar](https://github.com/#)				 - Print a Character
