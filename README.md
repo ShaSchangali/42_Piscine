@@ -64,6 +64,7 @@
 - [ft_print_program_name](https://github.com/#)	- Print the Name of a Program
 - [ft_print_params](https://github.com/#) 		- Print Parameters of a Program
 - [ft_rev_params](https://github.com/#) 		- Print Parameters of a Program in Reverse
+- [ft_sort_params](https://github.com/#) 		- Sort Parameters of a Program
 
 ## [C07] - Memory Allocation
 
