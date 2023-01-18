@@ -6,7 +6,7 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 22:08:01 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 23:25:16 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:28:56 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	return (*(unsigned char*)s1 - *(unsigned char*)s2);
 }
 
-/* 
+/*
 int	main(void)
 {
 	char *str1;
