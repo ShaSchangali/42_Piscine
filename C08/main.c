@@ -1,23 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft.h                                               :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/19 00:19:15 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/19 00:19:16 by sschanga         ###   ########.fr       */
+/*   Created: 2023/01/19 00:24:58 by sschanga          #+#    #+#             */
+/*   Updated: 2023/01/19 00:25:59 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_H
+#include "ft_boolean.h"
+#include "ft_abs.h"
+#include <stdio.h>
 
-# define FT_H
+void ft_putstr(char *str)
+{
+	while (*str)
+	write(1, str++, 1);
+}
 
-void	ft_putchar(char c);
-void	ft_putstr(char *str);
-void	ft_swap(int *a, int *b);
-int		ft_strlen(char *str);
-int		ft_strcmp(char *s1, char *s2);
+t_bool ft_is_even(int nbr)
+{
+	return ((EVEN(nbr)) ? TRUE : FALSE);
+}
 
-#endif
+int main(int argc, char **argv)
+{
+	(void)argv;
+	if (ft_is_even(argc - 1) == TRUE)
+		ft_putstr(EVEN_MSG);
+	else
+		ft_putstr(ODD_MSG);
+
+	int absx = -9;
+	printf("%d => %d\n", absx , ABS(absx));
+	return (SUCCESS);
+}

@@ -1,23 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft.h                                               :+:      :+:    :+:   */
+/*   main2.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/19 00:19:15 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/19 00:19:16 by sschanga         ###   ########.fr       */
+/*   Created: 2023/01/19 00:26:16 by sschanga          #+#    #+#             */
+/*   Updated: 2023/01/19 00:26:27 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_H
+#include <stdio.h>
+#include "ft_point.h"
 
-# define FT_H
+void set_point(t_point *point)
+{
+	point->x = 42;
+	point->y = 21;
+}
 
-void	ft_putchar(char c);
-void	ft_putstr(char *str);
-void	ft_swap(int *a, int *b);
-int		ft_strlen(char *str);
-int		ft_strcmp(char *s1, char *s2);
-
-#endif
+int main(void)
+{
+	t_point point;
+	set_point(&point);
+	printf("%d\n", point.x);
+	return (0);
+}

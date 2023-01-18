@@ -62,8 +62,10 @@
 - [ft_ultimate_range](https://github.com/#) 	- Return the Length of a Range
 - [ft_strjoin](https://github.com/#) 			- Join Two Strings Together
 ##
-## [C08] - Memory Allocation
-- [ft_strdup](https://github.com/#)				- Duplicate a String
-- [ft_range](https://github.com/#) 				- Return a Range
-- [ft_ultimate_range](https://github.com/#) 	- Return the Length of a Range
-- [ft_strjoin](https://github.com/#) 			- Join Two Strings Together
+## [C08] - Header Files 
+- [ft.h](https://github.com/#) 					- Create header file
+- [ft_boolean.h](https://github.com/#) 			- Create a ft_boolean.h file.
+- [ft_abs.h](https://github.com/#) 				- Create macro ABS & replaces argument by it absolute value
+- [ft_point.h](https://github.com/#) 			- Create a file ft_point.h
+- [ft_show_tab](https://github.com/#) 			- takes an array of string as argument and the size of this array
+- [ft_param_to_tab](https://github.com/#) 		- displays the content of the array
