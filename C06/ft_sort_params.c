@@ -6,7 +6,7 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 23:17:51 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 23:21:43 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:31:25 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ void	ft_str_sort(char **arr, int size, int offset)
 	}
 }
 
-/* 
+/*
 int		main(int argc, char **argv)
 {
 	int	index;
