@@ -6,7 +6,7 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 23:06:07 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 23:06:31 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:24:13 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int	ft_strlen(char *str)
 	return (i);
 	
 }
+
 /*
 #include <stdio.h>
 int main (void)
