@@ -69,3 +69,9 @@
 - [ft_point.h](https://github.com/#) 			- Create a file ft_point.h
 - [ft_show_tab](https://github.com/#) 			- Takes an array of string as argument and the size of this array
 - [ft_param_to_tab](https://github.com/#) 		- displays the content of the array
+##
+## [C09] - Makefile  
+- [libft_creator.sh](https://github.com/#) 	- Shell script will compile source files appropriately
+- [MAKEFILE](https://github.com/#) 			- Compile a library libft.a
+- [ft_spilt.c](https://github.com/#) 		- slits a string of character depending onanother string of characters
+
