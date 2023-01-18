@@ -15,13 +15,13 @@
 
 ## [C01] - Pointers and If Statements
 
-- [ex00: ft_ft](https://github.com/#) - Make a Pointer to 42
-- [ex01: ft_ultimate_ft](https://github.com/#) - Make a Pointer to a Pointer to a...to 42
-- [ex02: ft_swap](https://github.com/#) - Swap Two Values, Using a Temporary Variable
-- [ex03: ft_div_mod](https://github.com/#) - Use Div and Mod to Return a Value
-- [ex04: ft_ultimate_div_mod](https://github.com/#) - Store Values, Swap Them, use Div and Mod
-- [ex05: ft_putstr](https://github.com/#) - Write a String
-- [ex06: ft_strlen](https://github.com/#) - Get the Length of a String
+- [ft_ft](https://github.com/#) - Make a Pointer to 42
+- [ft_ultimate_ft](https://github.com/#) - Make a Pointer to a Pointer to a...to 42
+- [ft_swap](https://github.com/#) - Swap Two Values, Using a Temporary Variable
+- [ft_div_mod](https://github.com/#) - Use Div and Mod to Return a Value
+- [ft_ultimate_div_mod](https://github.com/#) - Store Values, Swap Them, use Div and Mod
+- [ft_putstr](https://github.com/#) - Write a String
+- [ft_strlen](https://github.com/#) - Get the Length of a String
 
 ## [C02] - Introduction To Strings and Arrays
 
