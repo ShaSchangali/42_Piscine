@@ -69,3 +69,11 @@
 - [ft_range](https://github.com/#) 				- Return a Range
 - [ft_ultimate_range](https://github.com/#) 	- Return the Length of a Range
 - [ft_strjoin](https://github.com/#) 			- Join Two Strings Together
+
+## [C08] - #
+## [C09] - #
+## [C09] - #
+## [C10] - #
+## [C11] - #
+## [C12] -#
+## [C13] - Memory Allocation
