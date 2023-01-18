@@ -1,35 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_iterative_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/18 22:53:55 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 23:14:55 by sschanga         ###   ########.fr       */
+/*   Created: 2023/01/18 23:12:48 by sschanga          #+#    #+#             */
+/*   Updated: 2023/01/18 23:14:05 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
-#include <string.h>
 
-int	ft_strlen(char *str)
+int	ft_iterative_power(int nb, int power)
 {
-	int	index;
+	int	i;
 
-	index = 0;
-	while (str[index])
-		index++;
-	return (index);
+	i = nb;
+	if (power < 0)
+		return (0);
+	if (power == 0)
+		return (1);
+	while (power > 1)
+	{
+		nb *= i;
+		power--;
+	}
+	return (nb);
 }
 
 /*
-int	main(void)
+#include <stdio.h>
+int main(void)
 {
-	char *str;
-
-	str = "Hello ";
-	printf("c  : %lu\n", strlen(str));
-	printf("ft : %d\n", ft_strlen(str));
+	printf("%i", ft_iterative_power(3, 4 ));
 }
 */

@@ -1,35 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/18 22:53:55 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 23:14:55 by sschanga         ###   ########.fr       */
+/*   Created: 2023/01/18 23:14:21 by sschanga          #+#    #+#             */
+/*   Updated: 2023/01/18 23:14:42 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
-#include <string.h>
 
-int	ft_strlen(char *str)
+int	ft_sqrt(int nb)
 {
-	int	index;
+	int	i;
 
-	index = 0;
-	while (str[index])
-		index++;
-	return (index);
+	i = 1;
+	while (i * i <= nb && i <= 46340)
+	{
+		if (i * i == nb)
+			return (i);
+		else
+			i++;
+	}
+	return (0);
 }
 
 /*
-int	main(void)
+#include <stdio.h>
+int main()
 {
-	char *str;
-
-	str = "Hello ";
-	printf("c  : %lu\n", strlen(str));
-	printf("ft : %d\n", ft_strlen(str));
+	printf("%d\n", ft_sqrt(4));
 }
 */

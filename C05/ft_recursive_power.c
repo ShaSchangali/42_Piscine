@@ -1,35 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_recursive_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/18 22:53:55 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 23:14:55 by sschanga         ###   ########.fr       */
+/*   Created: 2023/01/18 23:13:05 by sschanga          #+#    #+#             */
+/*   Updated: 2023/01/18 23:13:16 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
-#include <string.h>
 
-int	ft_strlen(char *str)
+int	ft_recursive_power(int nb, int power)
 {
-	int	index;
-
-	index = 0;
-	while (str[index])
-		index++;
-	return (index);
+	if (power < 0)
+		return (0);
+	if (power == 0)
+		return (1);
+	if (power > 1)
+	{
+		nb = nb * ft_recursive_power(nb, power - 1);
+	}
+	return (nb);
 }
 
 /*
-int	main(void)
+#include <stdio.h>
+int main()
 {
-	char *str;
-
-	str = "Hello ";
-	printf("c  : %lu\n", strlen(str));
-	printf("ft : %d\n", ft_strlen(str));
+	printf("%d\n", ft_recursive_power(5,3));
 }
 */
