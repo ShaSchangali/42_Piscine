@@ -6,11 +6,11 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:40:33 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 21:40:55 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:06:43 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 void	ft_ultimate_ft(int *********nbr)
 {

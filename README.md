@@ -48,6 +48,7 @@
 - [ft_strlen](https://github.com/#) 			- Get the Length of a String
 - [ft_putstr](https://github.com/#) 			- Print a String
 - [ft_putnbr](https://github.com/#) 			- Print Any Number Within The Max / Min Int
+- [ft_atoi](https://github.com/#) 				- Convert a string to an integer
 
 ## [C05] - Mathematical Concepts in C
 

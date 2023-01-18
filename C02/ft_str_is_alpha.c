@@ -6,12 +6,12 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:51:24 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 22:01:38 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:03:02 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//#include <stdio.h>
 #include <stdbool.h>
-#include <stdio.h>
 
 int		ft_str_is_alpha(char *str)
 {

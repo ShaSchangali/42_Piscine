@@ -6,12 +6,12 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:57:10 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 22:03:28 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:04:19 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//#include <stdio.h>
 #include <stdbool.h>
-#include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {

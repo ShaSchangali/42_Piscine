@@ -6,11 +6,11 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:50:57 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 21:51:01 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:04:13 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 #include <string.h>
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)

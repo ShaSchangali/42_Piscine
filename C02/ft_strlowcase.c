@@ -6,12 +6,12 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:58:21 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 22:02:33 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:04:03 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//#include <stdio.h>
 #include <stdbool.h>
-#include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {

@@ -6,11 +6,11 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:37:19 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 21:39:55 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:04:28 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 void	ft_ft(int *nbr)
 {

@@ -6,12 +6,12 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 22:12:33 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 22:12:50 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:02:53 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//#include <stdio.h>
 #include <stdbool.h>
-#include <stdio.h>
 #include <string.h>
 
 char	*ft_strstr(char *str, char *to_find)

@@ -6,11 +6,11 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:41:55 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 21:42:18 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:04:26 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {

@@ -6,11 +6,11 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:41:09 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 21:41:27 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:06:34 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {

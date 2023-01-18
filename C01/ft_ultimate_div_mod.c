@@ -6,11 +6,11 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:42:41 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 21:42:54 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:06:40 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {

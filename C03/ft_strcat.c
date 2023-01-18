@@ -6,11 +6,11 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 22:09:56 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 22:10:54 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:02:33 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 #include <string.h>
 
 unsigned int	ft_str_length(char *dest)

@@ -1,43 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/18 21:49:39 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 23:03:39 by sschanga         ###   ########.fr       */
+/*   Created: 2023/01/18 22:53:55 by sschanga          #+#    #+#             */
+/*   Updated: 2023/01/18 23:02:15 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
 #include <string.h>
 
-char	*ft_strcpy(char *dest, char *src)
+int	ft_strlen(char *str)
 {
-	int i;
+	int	index;
 
-	i = 0;
-	while (src[i] != '\0')
-	{
-		dest[i] = src[i];
-		i++;
-	}
-	dest[i] = '\0';
-	return (dest);
+	index = 0;
+	while (str[index])
+		index++;
+	return (index);
 }
 
-/* 
-int		main(void)
+/*
+int	main(void)
 {
-	char *src;
-	char dest[12];
+	char *str;
 
-	src = "Hello World";
-	printf("base   : %s\n", src);
-	strcpy(dest, src);
-	printf("cpy    : %s\n", dest);
-	ft_strcpy(dest, src);
-	printf("ft_cpy : %s\n", dest);
+	str = "Hello ";
+	printf("c  : %lu\n", strlen(str));
+	printf("ft : %d\n", ft_strlen(str));
 }
 */

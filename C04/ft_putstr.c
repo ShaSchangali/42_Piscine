@@ -1,43 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/18 21:49:39 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 23:03:39 by sschanga         ###   ########.fr       */
+/*   Created: 2023/01/18 23:00:15 by sschanga          #+#    #+#             */
+/*   Updated: 2023/01/18 23:02:21 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
-#include <string.h>
+#include <unistd.h>
 
-char	*ft_strcpy(char *dest, char *src)
+void	ft_putchar(char c)
 {
-	int i;
+	write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{
+	int	i;
 
 	i = 0;
-	while (src[i] != '\0')
+	while (str[i] != '\0')
 	{
-		dest[i] = src[i];
+		ft_putchar(str[i]);
 		i++;
 	}
-	dest[i] = '\0';
-	return (dest);
 }
 
-/* 
-int		main(void)
-{
-	char *src;
-	char dest[12];
-
-	src = "Hello World";
-	printf("base   : %s\n", src);
-	strcpy(dest, src);
-	printf("cpy    : %s\n", dest);
-	ft_strcpy(dest, src);
-	printf("ft_cpy : %s\n", dest);
-}
-*/
+/*
+ int main()
+ {
+ 	ft_putstr("Hello World!");
+ }
+ */

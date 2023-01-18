@@ -6,11 +6,11 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 22:07:22 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 22:07:36 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:02:36 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 #include <string.h>
 
 int	ft_strcmp(char *s1, char *s2)
