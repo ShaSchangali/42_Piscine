@@ -1,6 +1,6 @@
-
+<div align="center">
 # C_Piscine
-
+</div>
 ##
 ## [C00] - Introduction to C
 - [ft_putchar](https://github.com/#)				 - Print a Character
@@ -58,6 +58,12 @@
 - [ft_sort_params](https://github.com/#) 		- Sort Parameters of a Program
 ##
 ## [C07] - Memory Allocation
+- [ft_strdup](https://github.com/#)				- Duplicate a String
+- [ft_range](https://github.com/#) 				- Return a Range
+- [ft_ultimate_range](https://github.com/#) 	- Return the Length of a Range
+- [ft_strjoin](https://github.com/#) 			- Join Two Strings Together
+##
+## [C08] - Memory Allocation
 - [ft_strdup](https://github.com/#)				- Duplicate a String
 - [ft_range](https://github.com/#) 				- Return a Range
 - [ft_ultimate_range](https://github.com/#) 	- Return the Length of a Range
