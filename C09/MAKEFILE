@@ -1,0 +1,56 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    MAKEFILE                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/01/19 00:44:55 by sschanga          #+#    #+#              #
+#    Updated: 2023/01/19 00:51:10 by sschanga         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Add .c & .h Files to the same folder
+#ft.h
+#ft_putchar.c
+#ft_putstr.c
+#ft_strcmp.c
+#ft_strlen.c
+#ft_swap.c
+
+SRCS	=	ft_putchar.c \
+		ft_putstr.c \
+		ft_strlen.c \
+		ft_strcmp.c \
+		ft_swap.c
+	
+OBJS	= ${SRCS:.c=.o}
+INCS	= includes
+NAME	= libft.a
+LIBC	= ar rc
+LIBR	= ranlib
+CC		= gcc
+RM		= rm -f
+CFLAGS	= -Wall -Wextra -Werror
+
+.c.o:
+	${CC} ${CFLAGS} -c $< -o ${<:.c=.o} -I${INCS}
+
+${NAME}: ${OBJS}
+	${LIBC} ${NAME} ${OBJS}
+	${LIBR} ${NAME}
+
+all: ${NAME}
+
+clean:
+	${RM} ${OBJS}
+
+fclean: clean
+	${RM} ${NAME}
+
+re: fclean all
+
+norm :
+	norminette -R CheckForbiddenSourceHeader */*.[ch]
+
+.PHONY: all clean fclean re .c.o norm
