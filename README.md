@@ -6,12 +6,12 @@
 
 ## [C00] - Introduction to C
 
-- [ex00: ft_putchar](https://github.com/#) - Print a Character
-- [ex01: ft_print_alphabet](https://github.com/#) - Print the Alphabet
-- [ex02: ft_print_reverse_alphabet](https://github.com/#) - Print the Alphabet in Reverse
-- [ex03: ft_print_numbers](https://github.com/#) - Print the Numbers 0 to 9
-- [ex04: ft_is_negative](https://github.com/#) - Print the Numbers 9 to 0 in Reverse
-- [ex05: ft_print_comb](https://github.com/#)- Combine Numbers into Different Double Combinations
+- [ft_putchar](https://github.com/#) - Print a Character
+- [ft_print_alphabet](https://github.com/#) - Print the Alphabet
+- [ft_print_reverse_alphabet](https://github.com/#) - Print the Alphabet in Reverse
+- [ft_print_numbers](https://github.com/#) - Print the Numbers 0 to 9
+- [ft_is_negative](https://github.com/#) - Print the Numbers 9 to 0 in Reverse
+- [ft_print_comb](https://github.com/#)- Combine Numbers into Different Double Combinations
 
 ## [C01] - Pointers and If Statements
 
@@ -42,7 +42,7 @@
 - [ex02: ft_strcat](https://github.com/#) 				- Concatanate Two Strings
 - [ex03: ft_strncat](https://github.com/#) 				- Concatanate Two Strings, Using Unsigned Ints
 
-## [C04] - Analysing String Qualities and Manipulating Ints
+## [C04] - Analysing String & Manipulating Ints
 
 - [ex00: ft_strlen](https://github.com/#) 				- Get the Length of a String
 - [ex01: ft_putstr](https://github.com/#) 				- Print a String
