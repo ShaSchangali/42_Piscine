@@ -41,6 +41,7 @@
 - [ft_strncmp](https://github.com/#) 			- Compare Two Strings, Returning a Value, Using Unsigned Ints
 - [ft_strcat](https://github.com/#) 			- Concatanate Two Strings
 - [ft_strncat](https://github.com/#) 			- Concatanate Two Strings, Using Unsigned Ints
+- [ft_strstr](https://github.com/#) 			-finds the first occurrence of the substring needle in the string haystack
 
 ## [C04] - Analysing String & Manipulating Ints
 
