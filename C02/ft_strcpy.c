@@ -6,7 +6,7 @@
 /*   By: sschanga <sschanga@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 21:49:39 by sschanga          #+#    #+#             */
-/*   Updated: 2023/01/18 23:03:39 by sschanga         ###   ########.fr       */
+/*   Updated: 2023/01/18 23:27:51 by sschanga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-/* 
+/*
 int		main(void)
 {
 	char *src;
