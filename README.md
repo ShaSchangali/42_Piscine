@@ -74,4 +74,50 @@
 - [libft_creator.sh](https://github.com/#) 	- A shell script will compile source files appropriately
 - [MAKEFILE](https://github.com/#) 			- Compile a library libft.a
 - [ft_spilt.c](https://github.com/#) 		- Slits a string of character depending onanother string of characters
+##
+## [C10] - Handle Files in C
+- [display_file](https://github.com/#) 	- 
+- [cat](https://github.com/#) 			-
+- [tail](https://github.com/#) 			-
+- [hexdump](https://github.com/#) 		-
+##
+## [C11] - Work with Array's 
+- [ft_foreach](https://github.com/#) 					- 
+- [ft_map](https://github.com/#) 						-
+- [ft_any](https://github.com/#) 						-
+- [ft_count_if](https://github.com/#) 					-
+- [ft_is_sort](https://github.com/#) 					- 
+- [do-op](https://github.com/#) 						-
+- [ft_sort_string_tab](https://github.com/#) 			-
+- [ft_advanced_sort_string_tab](https://github.com/#) 	-
+##
+## [C12] - Work with Linked List
+- [ft_create_elem](https://github.com/#) 		- 
+- [ft_list_push_front](https://github.com/#) 	-
+- [ft_list_size](https://github.com/#) 			-
+- [ft_list_last](https://github.com/#) 			-
+- [ft_list_push_back](https://github.com/#) 	- 
+- [ft_list_push_strs](https://github.com/#) 	-
+- [ft_list_clear](https://github.com/#) 		-
+- [ft_list_at](https://github.com/#) 			-
+- [ft_list_reverse](https://github.com/#) 		- 
+- [ft_list_foreach](https://github.com/#) 		-
+- [ft_list_foreach_if](https://github.com/#) 	-
+- [ft_list_find](https://github.com/#) 			-
+- [ft_list_remove_if](https://github.com/#) 	- 
+- [ft_list_merge](https://github.com/#) 		-
+- [ft_list_sort](https://github.com/#) 			-
+- [ft_list_reverse_fun](https://github.com/#) 	-
+- [ft_sorted_list_insert](https://github.com/#) - 
+- [ft_sorted_list_merge](https://github.com/#) 	-
 
+##
+## [C13] - Work with Binary
+- [btree_create_node](https://github.com/#) 	- 
+- [btree_apply_prefix](https://github.com/#) 			-
+- [btree_apply_infix](https://github.com/#) 			-
+- [btree_apply_suffix](https://github.com/#) 		-
+- [btree_insert_data](https://github.com/#) 			-
+- [btree_search_item](https://github.com/#) 			-
+- [btree_level_count](https://github.com/#) 		-
+- [btree_apply_by_level](https://github.com/#) 			-
