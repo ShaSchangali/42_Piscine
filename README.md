@@ -75,7 +75,7 @@
 - [MAKEFILE](https://github.com/#) 			- Compile a library libft.a
 - [ft_spilt.c](https://github.com/#) 		- Slits a string of character depending onanother string of characters
 ##
-## [C10] - Handle Files in C
+## [C10] - Work with Files
 - [display_file](https://github.com/#) 	- 
 - [cat](https://github.com/#) 			-
 - [tail](https://github.com/#) 			-
